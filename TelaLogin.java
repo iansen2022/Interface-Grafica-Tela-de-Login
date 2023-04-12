@@ -35,6 +35,7 @@ public class TelaLogin extends javax.swing.JFrame {
         jLabel3 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Acesso Portal");
         setResizable(false);
 
         jLabel1.setText("Login");
@@ -108,6 +109,7 @@ public class TelaLogin extends javax.swing.JFrame {
         );
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void txtLoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtLoginActionPerformed
@@ -116,7 +118,7 @@ public class TelaLogin extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         
-        if (txtLogin.getText().equals("usuario")&&txtSenha.getText().equals("1234")){
+        if (txtLogin.getText().equals("samuel")&&txtSenha.getText().equals("1234")){
             JOptionPane.showMessageDialog (null, "Bem vindo");
                     
         }else{
